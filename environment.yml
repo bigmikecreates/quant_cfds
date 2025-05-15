@@ -1,0 +1,28 @@
+name: quant_ml_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - jupyterlab
+      - ipykernel
+      - matplotlib
+      - numpy
+      - pandas
+      - scikit-learn
+      - seaborn
+      - statsmodels
+      - tensorflow
+      - keras
+      - torch
+      - torchvision
+      - torchaudio
+      - transformers
+      - nltk
+      - spacy
+      - beautifulsoup4
+      - requests
+      - arcticdb
+      - python-okx
