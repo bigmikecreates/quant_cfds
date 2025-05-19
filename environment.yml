@@ -26,3 +26,4 @@ dependencies:
       - requests
       - arcticdb
       - python-okx
+      - pybit
